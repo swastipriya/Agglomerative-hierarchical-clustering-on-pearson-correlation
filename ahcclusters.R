@@ -1,3 +1,5 @@
+##converting the clusters array into a dynamic clusters list
+
 # forming the clusters from the array
 clusters = list()
 for(k in seq(from=1, to=length(clust), by= 2))
