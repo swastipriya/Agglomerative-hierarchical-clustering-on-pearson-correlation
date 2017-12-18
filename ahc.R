@@ -39,7 +39,7 @@ while( length(which(pm[, ] > delta)) > 0)
     second_user= dist[first_user,1]
     
     #updating proximity matrix
-    # complete linkage - minimum of two rows (PC)
+    # complete linkage =maximum distance between the nodes = minimum of two rows (Pearson Correlation values)
     if(any((pm[first_user, ])) != 0 && (pm[first_user, which.max(pm[first_user, ])] > delta) && any((pm[second_user, ])) != 0 && (pm[second_user, which.max(pm[second_user, ])] > delta))
     {
       if(!(first_user %in% f_users || second_user %in% f_users))
