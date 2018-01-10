@@ -13,7 +13,6 @@ clusters = list()
 clust_array = c()
 for(k in seq(from=1, to=length(clust), by= 2))
 {
-  #print(i)
   present = 0
   if(is.null(clust_array))
   {
