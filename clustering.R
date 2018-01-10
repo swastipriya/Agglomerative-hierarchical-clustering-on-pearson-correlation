@@ -1,3 +1,5 @@
+# converting clusters stored in static array into dynamic list
+
 singleele = c()
 for( i in 1:nrow(pm))
 {
